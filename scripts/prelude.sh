@@ -7,6 +7,7 @@ command -v brew >/dev/null 2>&1 || { echo >&2 "Installing Homebrew"; \
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; }
 brew analytics off
 
-eval "/opt/homebrew/bin/brew shellenv)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/lucas/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo "Prelude done."
