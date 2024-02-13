@@ -6,6 +6,7 @@
 brew update
 brew upgrade
 
-brew bundle install --cleanup --zap --file=packages.brew
+brew bundle install --file=packages.brew
+brew bundle cleanup --file=packages.brew
 
 echo "Brew packages synced and up-to-date."
