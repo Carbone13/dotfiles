@@ -297,7 +297,7 @@ for app in "Activity Monitor" \
 	"Dock" \
 	"Finder" \
 	"Messages" \
-	"SystemUIServer" \; do
+	"SystemUIServer"; do
 	killall "${app}" &> /dev/null
 done
 
