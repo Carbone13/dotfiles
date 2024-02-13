@@ -1,13 +1,13 @@
 tap "homebrew/cask-fonts" 
 tap "koekeishiya/formulae"
-tap "zegervdv/zathura"
+#tap "zegervdv/zathura"
 
 brew "clang-format"
 brew "cmake"
 brew "eza"
 brew "ffmpeg"
 brew "fzf"
-brew "girara", args: ['HEAD']
+
 brew "git"
 brew "lua"
 brew "neofetch"
@@ -23,11 +23,13 @@ brew "stylua"
 brew "skhd"
 brew "tree-sitter"
 brew "yabai"
-brew "zathura", args: ['HEAD']
-brew "zathura-pdf-poppler"
 brew "zoxide"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
+# Bugged
+#brew "girara", args: ['HEAD']
+#brew "zathura", args: ['HEAD']
+#brew "zathura-pdf-poppler"
 
 cask "alex313031-thorium"
 cask "discord"
