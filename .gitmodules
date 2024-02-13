@@ -1,0 +1,6 @@
+[submodule ".config/ubersicht/plugins/simple-bar"]
+	path = .config/ubersicht/plugins/simple-bar
+	url = https://github.com/Jean-Tinland/simple-bar
+[submodule ".config/ubersicht/servers/simple-bar-server"]
+	path = .config/ubersicht/servers/simple-bar-server
+	url = https://github.com/Jean-Tinland/simple-bar-server.git
