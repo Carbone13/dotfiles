@@ -7,7 +7,6 @@ brew "cmake"
 brew "eza"
 brew "ffmpeg"
 brew "fzf"
-
 brew "git"
 brew "lua"
 brew "neofetch"
