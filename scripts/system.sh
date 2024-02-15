@@ -22,6 +22,9 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Scrollbar click to jump
 defaults write NSGlobalDomain AppleScrollerPagingBehavior -bool true
 
+# Hide menu bar
+defaults write NSGlobalDomain _HIHideMenuBar -int 1
+
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
