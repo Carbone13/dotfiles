@@ -1090,6 +1090,12 @@
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
         }
+      },
+      "git-credential-manager": {
+        "version": "2.4.1",
+        "options": {
+          "full_name": "git-credential-manager"
+        }
       }
     }
   },
