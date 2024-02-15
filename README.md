@@ -1,10 +1,13 @@
 <br />
 <p align="center">
+  <img alt="Dotfiles" src="https://raw.githubusercontent.com/Carbone13/dotfiles/master/dotfiles-cover.png"/>
+ </p>
+<p align="center">
  My personnal dotfiles for Apple Silicon
 </p>
 <p align="center">
   <img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/Carbone13/dotfiles?color=cc6165&labelColor=23262e&style=for-the-badge">
-  </p>
+</p>
 
 #
 
