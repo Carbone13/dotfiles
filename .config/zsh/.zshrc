@@ -10,6 +10,7 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export EDITOR='nvim'
 export CMAKE_GENERATOR="Ninja"
 export NINJA_STATUS="[%p]"
+export GPG_TTY=$(tty)
 
 alias os-update="$HOME/dotfiles/os-update.sh"
 alias ls="eza -1 --icons"
