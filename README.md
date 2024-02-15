@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img alt="Dotfiles" src="https://raw.githubusercontent.com/Carbone13/dotfiles/master/dotfiles-cover.png"/>
+  <img alt="Dotfiles" src="https://raw.githubusercontent.com/Carbone13/dotfiles/master/.cover.png"/>
  </p>
 <p align="center">
  My personnal dotfiles for Apple Silicon
