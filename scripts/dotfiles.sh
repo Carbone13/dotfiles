@@ -17,6 +17,6 @@ stow --dir=$CFG --target=$HOME/$CFG .
 stow --dir=$CFG/zsh --target=$HOME .
 stow --dir=$CFG/hush --target=$HOME .
 stow --dir=$CFG/git --target=$HOME .
-stow --dir=$CFG/ubersicht --target=$HOME .simplebarrc
+stow --dir=$CFG/ubersicht --target=$HOME .
 
 echo "Linked dotfiles."

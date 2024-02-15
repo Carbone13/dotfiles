@@ -1,6 +1,5 @@
 PATH=/opt/homebrew/bin/:$PATH
 
-eval "/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(opam env)"
