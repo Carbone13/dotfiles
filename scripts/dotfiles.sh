@@ -2,7 +2,7 @@
 
 # Update and symlink the dotfiles
 
-CFG=.config
+CFG=$HOME/dotfiles/.config
 
 # clean
 rm -rf $HOME/$CFG

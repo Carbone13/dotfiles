@@ -2,7 +2,7 @@
 
 echo "Updating OS..."
 
-sh ./scripts/brewer.sh
-sh ./scripts/dotfiles.sh
+sh $HOME/dotfiles/scripts/brewer.sh
+sh $HOME/dotfiles/scripts/dotfiles.sh
 
 echo "Done !"

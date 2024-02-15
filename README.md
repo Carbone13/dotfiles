@@ -36,6 +36,10 @@ Mostly inspired/stolen from [this rice](https://www.reddit.com/r/unixporn/commen
 
 > [!CAUTION]
 > Don't run it before reading ! It's going to erase most of your homebrew packages !
+
+> [!WARNING]
+> The repository should be cloned in the `$HOME` directory, as scripts expects the root to be located in `$HOME/dotfiles`.
+
 ### Pre-requisite
 I generally just install git on the system, by typing `git` in the terminal, which ask for the command line dev tools installation that I need anyways.
 
