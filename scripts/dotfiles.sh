@@ -14,9 +14,9 @@ rm -f $HOME/.simplebarrc
 # link
 mkdir -p $HOME/$CFG
 stow --dir=$CFG --target=$HOME/$CFG .
-ln -sf $CFG/zsh/.zshrc $HOME/.zshrc
-ln -sf $CFG/hush/.hushlogin $HOME/.hushlogin
-ln -sf $CFG/git/.gitconfig $HOME/.gitconfig
-ln -sf $CFG/ubersicht/.simplebarrc $HOME/.simplebarrc
+stow --dir=$CFG/zsh --target=$HOME .
+stow --dir=$CFG/hush --target=$HOME .
+stow --dir=$CFG/git --target=$HOME .
+stow --dir=$CFG/ubersicht --target=$HOME .simplebarrc
 
 echo "Linked dotfiles."
