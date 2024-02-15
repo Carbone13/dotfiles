@@ -1,1 +1,3 @@
 .DS_Store
+.config/iterm2/AppSupport
+packages.brew.lock.json
