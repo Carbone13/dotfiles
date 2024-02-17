@@ -1,5 +1,6 @@
 # Open iTerm2
 cmd - escape : open -na iTerm.app
+lalt + cmd - escape : open -na "Visual Studio Code.app"
 
 ##################
 # Window Motions #
