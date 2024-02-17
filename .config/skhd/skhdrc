@@ -10,7 +10,7 @@ cmd - l : yabai -m window --focus east
 shift + alt - h : yabai -m window --swap west
 shift + alt - j : yabai -m window --swap south
 shift + alt - k : yabai -m window --swap north
-shift + alt - l : yabai -m window --swap east
+shift + lalt - l : yabai -m window --swap east
  
 # move window
 shift + cmd - h : yabai -m window --warp west
