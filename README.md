@@ -60,10 +60,10 @@ cd dotfiles
 I also have a [os-update.sh](os-update.sh) script that only runs [brewer.sh](scripts/brewer.sh) and [dotfiles.sh](scripts/dotfiles.sh), the others being only useful when installing a fresh system.
 
 ## TODO
-- Try to automatically setup Ubersicht
+_Well, I might never implement those, because it would be more painful that just doing it manually post-install._
+
+- Automatically setup Ubersicht
 - 'Tap to click' preferences seems to not be working
 - VS Code is handled with online sync for the moment
 - iTerm2 is weird
-- Auto hiding of menu bar need testing
-- Bootstrap the dock ? (maybe overkill)
-- Automate xcode command line install, so we use homebrew git
+- Automate xcode command line install
