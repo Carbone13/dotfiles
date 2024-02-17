@@ -37,13 +37,10 @@ yabai -m config window_gap                   5
 ##############
 # Exclusions #
 ##############
-yabai -m rule --add app=Finder manage=off
-yabai -m rule --add app=System Preferences manage=off
-yabai -m rule --add app=System\ Preferences manage=off
-yabai -m rule --add app=Réglages Système manage=off
-yabai -m rule --add app=Réglages\ Système manage=off
+yabai -m rule --add app="Réglages Système" manage=off
 yabai -m rule --add app="Raycast" manage=off
 yabai -m rule --add app="Finder" manage=off
+yabai -m rule --add app="Messages" manage=off
 
 #################
 # Ubersicht bar #
