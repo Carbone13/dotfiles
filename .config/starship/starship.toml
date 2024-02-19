@@ -1,3 +1,5 @@
+command_timeout = 1000
+
 [aws]
 symbol = "  "
 format = "via [$symbol]($style)"

@@ -1,4 +1,5 @@
 PATH=/opt/homebrew/bin/:$PATH
+PATH=/opt/homebrew/opt/llvm/bin:$PATH
 
 ###########
 # Plugins #
@@ -18,6 +19,8 @@ export CMAKE_GENERATOR="Ninja"
 export NINJA_STATUS="[%p]"
 export GPG_TTY=$(tty)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+export LDFLAGS="-L/opt/homebrew/opt/llvm/lib,L$HOMEBREW_PREFIX/opt/llvm/lib/c++ -Wl,-rpath,$HOMEBREW_PREFIX/opt/llvm/lib/c++"
+export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 
 ###########
 # Aliases #

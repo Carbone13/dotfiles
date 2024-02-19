@@ -41,6 +41,7 @@ yabai -m rule --add app="Réglages Système" manage=off
 yabai -m rule --add app="Raycast" manage=off
 yabai -m rule --add app="Finder" manage=off
 yabai -m rule --add app="Messages" manage=off
+yabai -m rule --add app="IINA" manage=off
 
 #################
 # Ubersicht bar #
