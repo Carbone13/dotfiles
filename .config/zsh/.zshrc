@@ -19,7 +19,6 @@ export CMAKE_GENERATOR="Ninja"
 export NINJA_STATUS="[%p]"
 export GPG_TTY=$(tty)
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-export LDFLAGS="-L/opt/homebrew/opt/llvm/lib,L$HOMEBREW_PREFIX/opt/llvm/lib/c++ -Wl,-rpath,$HOMEBREW_PREFIX/opt/llvm/lib/c++"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 
 ###########
@@ -35,3 +34,4 @@ alias cdu="cd ../"
 alias gc="git commit -m"
 alias ga="git add --all"
 alias gp="git push"
+alias gu="git submodule update --init --recursive"

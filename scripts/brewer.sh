@@ -5,8 +5,7 @@
 
 brew update
 
-brew bundle install --file=$HOME/dotfiles/packages.brew
-brew bundle cleanup --zap --force --file=$HOME/dotfiles/packages.brew
+brew bundle install --cleanup --force --zap --file=$HOME/dotfiles/packages.brew
 
 brew upgrade
 
