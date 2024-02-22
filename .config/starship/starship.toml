@@ -1,5 +1,8 @@
 command_timeout = 1000
 
+[git_status]
+disabled = true
+
 [aws]
 symbol = "  "
 format = "via [$symbol]($style)"

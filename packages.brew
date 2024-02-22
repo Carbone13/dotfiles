@@ -1,7 +1,7 @@
 tap "homebrew/cask-fonts" 
 tap "koekeishiya/formulae"
 tap "spicetify/homebrew-tap"
-#tap "zegervdv/zathura"
+tap "zegervdv/zathura"
 
 brew "clang-format"
 brew "cmake"
@@ -34,16 +34,16 @@ brew "yabai"
 brew "zoxide"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
-# Bugged
-#brew "girara", args: ['HEAD']
-#brew "zathura", args: ['HEAD']
-#brew "zathura-pdf-poppler"
+# In tests
+brew "girara", args: ['HEAD']
+brew "zathura", args: ['HEAD']
+brew "zathura-pdf-poppler"
 
 cask "alex313031-thorium"
-cask "clion"
 cask "discord"
 cask "iina"
 cask "iterm2"
+cask "jetbrains-toolbox"
 cask "git-credential-manager"
 cask "raycast"
 cask "spotify"
