@@ -29,9 +29,7 @@ shift + lalt - d : yabai -m window --warp east
 # Focus #
 #########
 # Clockwise
-alt - tab : yabai -m window --focus "$(yabai -m query --windows --space | jq -re "[sort_by(.id, .frame) | .[] | select(.role == \"AXWindow\" and .subrole == \"AXStandardWindow\") | .id] | nth(index($(yabai -m query --windows --window | jq -re ".id")) - 1)")"
-# Counter-clockwise
-shift - tab : yabai -m window --focus "$(yabai -m query --windows --space | jq -re "[sort_by(.id, .frame) | reverse | .[] | select(.role == \"AXWindow\" and .subrole == \"AXStandardWindow\") | .id] | nth(index($(yabai -m query --windows --window | jq -re ".id")) - 1)")"
+shift - tab : yabai -m window --focus $(yabai -m query --windows --space | jq -re "[sort_by(.id, .frame) | .[] | select(.role == \"AXWindow\" and .subrole == \"AXStandardWindow\" and .\"is-hidden\"|not) | .id] | nth(index($(yabai -m query --windows --window | jq -re ".id")) - 1)")
 
 ##########
 # Spaces #

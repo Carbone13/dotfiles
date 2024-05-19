@@ -1,4 +1,8 @@
 command_timeout = 1000
+add_newline = false
+
+[character]
+format = '$symbol '
 
 [git_status]
 disabled = true

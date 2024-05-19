@@ -1,0 +1,36 @@
+[colors]
+ansi = [
+  '#282c34',
+  '#e05561',
+  '#98c379',
+  '#e5c07b',
+  '#61afef',
+  '#c678dd',
+  '#56b6c2',
+  '#abb2bf',
+]
+background = '#23272E'
+foreground = '#abb2bf'
+brights = [
+  '#5c6370',
+  '#ff616e',
+  '#b3d39c',
+  '#edd4a6',
+  '#8fc6f4',
+  '#d7a1e7',
+  '#7bc6d0',
+  '#c8cdd5',
+]
+cursor_bg = '#c7c7c7'
+cursor_fg = '#feffff'
+cursor_border = '#c7c7c7'
+
+
+selection_bg = '#404754'
+selection_fg = '#c2d0e0'
+
+[colors.indexed]
+
+[metadata]
+name = 'onedarkpro'
+origin_url = 'https://github.com/olimorris/onedarkpro.nvim'

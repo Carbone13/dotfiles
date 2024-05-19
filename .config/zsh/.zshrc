@@ -29,9 +29,10 @@ alias ls="eza -1 --icons"
 alias lst="eza -1 --icons --tree --level=2"
 alias cd="z"
 alias nv="nvim ."
-alias python="python3"
 alias cdu="cd ../"
 alias gc="git commit -m"
 alias ga="git add --all"
 alias gp="git push"
 alias gu="git submodule update --init --recursive"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
